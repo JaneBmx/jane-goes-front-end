@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+}

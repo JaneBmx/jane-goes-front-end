@@ -1,0 +1,48 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 40px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo a {
+    display: flex;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li {
+    display: flex;
+}
+
+.nav li:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.nav li a {
+    display: block;
+    padding: 0 20px;
+    height: 100%;
+    line-height: 80px;
+    color: #fff;
+    text-decoration: none;
+}
+
+

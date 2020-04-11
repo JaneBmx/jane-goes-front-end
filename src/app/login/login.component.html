@@ -1,0 +1,8 @@
+<section class="login">
+    <h3 class="login-heading">Sign in</h3>
+    <form class="login-form" [formGroup]="form">
+        <input type="text" placeholder="username" formControlName="username">
+        <input type="password" placeholder="password" formControlName="password">
+        <button [disabled]="form.invalid" (click)="login($event)">login</button>
+    </form>
+</section>
